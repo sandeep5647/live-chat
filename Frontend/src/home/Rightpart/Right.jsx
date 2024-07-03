@@ -23,8 +23,8 @@ function Right() {
               className="user-container" style={{ maxHeight: '80vh', overflowY: 'scroll', scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
               <Messages />
+              <Typesend />
             </div>
-            <Typesend />
           </>
         )}
       </div>
