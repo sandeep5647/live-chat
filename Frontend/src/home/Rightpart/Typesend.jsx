@@ -34,23 +34,3 @@ function Typesend() {
 }
 
 export default Typesend;
-
-// import React from 'react'
-// import { IoSend } from "react-icons/io5";
-
-// function Typesend() {
-//   return (
-//     <div className='flex space-x-2 items-center justify-center h-[10vh]'>
-//         <div className='w-[85%]'>
-//             <input type='text' 
-//             placeholder='Type Messages'
-//             className='input input-bordered w-full bg-slate-700' />
-//         </div>
-//         <button className='text-3xl'>
-//             <IoSend />
-//         </button>
-//     </div>
-//   )
-// }
-
-// export default Typesend
