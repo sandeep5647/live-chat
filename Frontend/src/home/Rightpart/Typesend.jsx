@@ -1,0 +1,56 @@
+import React, { useState } from "react";
+import { IoSend } from "react-icons/io5";
+import useSendMessage from "../../context/useSendMessage.js";
+
+function Typesend() {
+  const [message, setMessage] = useState("");
+  const { loading, sendMessages } = useSendMessage();
+
+  const handleSubmit = async (e) => {
+    console.log(e);
+    e.preventDefault();
+    await sendMessages(message);
+    setMessage("");
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div className="flex space-x-2 items-center justify-center h-[10vh]">
+        <div className="w-[85%]">
+          <input
+            type="text"
+            placeholder="Type Messages"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            className="input input-bordered w-full bg-slate-700"
+          />
+        </div>
+        <button>
+          <IoSend className="text-3xl" />
+        </button>
+      </div>
+    </form>
+  );
+}
+
+export default Typesend;
+
+// import React from 'react'
+// import { IoSend } from "react-icons/io5";
+
+// function Typesend() {
+//   return (
+//     <div className='flex space-x-2 items-center justify-center h-[10vh]'>
+//         <div className='w-[85%]'>
+//             <input type='text' 
+//             placeholder='Type Messages'
+//             className='input input-bordered w-full bg-slate-700' />
+//         </div>
+//         <button className='text-3xl'>
+//             <IoSend />
+//         </button>
+//     </div>
+//   )
+// }
+
+// export default Typesend
