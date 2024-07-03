@@ -18,7 +18,9 @@ function Right() {
           <NoChatSelected />
         ) : (
           <>
-            <ChatUser />
+            <div className="sticky top-0 z-10">
+              <ChatUser />
+            </div>
             <div
               className="user-container" style={{ maxHeight: '80vh', overflowY: 'scroll', scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
