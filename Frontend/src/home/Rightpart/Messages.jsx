@@ -34,13 +34,6 @@ function Messages() {
         ))
       )}
 
-      {!loading && messages.length === 0 && (
-        <div>
-          <p className="text-center mt-[20%]">
-            Say! Hi to start the conversation
-          </p>
-        </div>
-      )}
     </div>
   );
 }
