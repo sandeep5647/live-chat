@@ -26,7 +26,7 @@ function ChatUser() {
         <div className='flex space-x-3 h-[10vh] items-center justify-center bg-gray-700'>
           <div className={`avatar ${isOnline?"online":""}`}>
             <div className="w-16 rounded-full">
-              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
             </div>
           </div>
           <div>
