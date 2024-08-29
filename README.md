@@ -19,11 +19,7 @@ The Live-Chat Application is a real-time chat solution designed with enhanced da
 - **React.js**: A JavaScript library for building user interfaces, used for creating the frontend of the application.
 - **MongoDB Atlas**: A cloud-based NoSQL database service, used to store user data and chat messages.
 
-## Installation
-
-To get started with the Live-Chat Application, follow these steps:
 
 **Clone the Repository**:
-
    ```bash
    git clone https://github.com/sandeep5647/live-chat.git
