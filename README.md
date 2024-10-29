@@ -20,6 +20,5 @@ The Live-Chat Application is a real-time chat solution designed with enhanced da
 - **MongoDB Atlas**: A cloud-based NoSQL database service, used to store user data and chat messages.
 
 
-**Clone the Repository**:
-   ```bash
-   git clone https://github.com/sandeep5647/live-chat.git
+### Live Demo
+[https://live-chat-dblc.onrender.com/](https://live-chat-dblc.onrender.com/)
